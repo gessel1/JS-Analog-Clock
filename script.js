@@ -7,6 +7,13 @@ let hrPosition = 20;
 let minPosition = 130;
 let secPosition = 267;
 
+//Our date object that we can manipulate as required using the info the browser gives us
+var date = new Date();
+
+//We pull out what we require from the date object using methods
+let hr = date.getHours();
+let min = date.getMinutes();
+let sec = date.getSeconds();
 
 
 HOURHAND.style.transform = "rotate(" + hrPosition + "deg)"
